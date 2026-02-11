@@ -1,0 +1,16 @@
+name,address,type,value_type,length,unitid
+device,solark15,1,,
+poll,holding_register,90,123,BE_BE
+ref,total_pv_power,185,uint16,r,watt,1
+ref,pv1_voltage,109,uint16,r,volt,0.1
+ref,pv1_current,110,uint6,r,amp,0.1
+ref,grid_power,169,int16,r,watt,1
+ref,load_power,178,uint16,r,watt,1
+ref,battery_voltage,183,uint16,r,volt,0.01
+ref,battery_soc,184,uint16,r,percent,1
+ref,battery_power,190,int16,r,watt,1
+ref,inverter_temp,90,uint16,r,celsius,0.01
+
+
+
+
